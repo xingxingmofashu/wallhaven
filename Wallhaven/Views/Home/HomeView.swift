@@ -27,8 +27,9 @@ struct HomeView: View {
                     )
                 }
             }
-            .navigationTitle("Wallhaven")
-            .task { viewModel.loadInitial() }
+           .navigationTitle("Home")
+           .navigationBarTitleDisplayMode(.inline)
+           .task { viewModel.loadInitial() }
             .refreshable { await viewModel.refresh() }
             .navigationDestination(item: $selectedWallpaper) { wallpaper in
                 if let index = viewModel.wallpapers.firstIndex(where: { $0.id == wallpaper.id }),

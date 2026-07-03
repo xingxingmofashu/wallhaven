@@ -110,9 +110,9 @@ struct SearchFilters: Equatable {
         items.append(URLQueryItem(name: "sorting",    value: sorting.rawValue))
         items.append(URLQueryItem(name: "order",      value: order.rawValue))
 
-        if sorting == .topList {
-            items.append(URLQueryItem(name: "top_range", value: topRange.rawValue))
-        }
+       if sorting == .topList {
+           items.append(URLQueryItem(name: "topRange", value: topRange.rawValue))
+       }
 
         if !atLeast.isEmpty {
             items.append(URLQueryItem(name: "atleast", value: atLeast))
