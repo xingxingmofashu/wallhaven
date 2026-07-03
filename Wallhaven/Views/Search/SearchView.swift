@@ -29,9 +29,9 @@ struct SearchView: View {
                     }
                 }
             }
-            .navigationTitle("Search")
-            .navigationBarTitleDisplayMode(.large)
-            .searchable(
+           .navigationTitle("Search")
+           .navigationBarTitleDisplayMode(.inline)
+           .searchable(
                 text: $viewModel.filters.query,
                 placement: .navigationBarDrawer(displayMode: .always),
                 prompt: "Search wallpapers, tags..."

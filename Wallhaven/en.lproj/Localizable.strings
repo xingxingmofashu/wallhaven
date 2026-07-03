@@ -2,7 +2,6 @@
 "Search" = "Search";
 "Favorites" = "Favorites";
 "Settings" = "Settings";
-"Wallhaven" = "Wallhaven";
 "Loading…" = "Loading...";
 "Unknown error" = "Unknown error";
 "Searching..." = "Searching...";
@@ -53,7 +52,6 @@
 "Set" = "Set";
 "API Key can be found in your wallhaven.cc account settings. Enables NSFW content and personal preferences." = "API Key can be found in your wallhaven.cc account settings. Enables NSFW content and personal preferences.";
 "API Key Required" = "API Key Required";
-"Not set" = "Not set";
 "User Settings" = "User Settings";
 "Configured" = "Configured";
 "Thumb Size" = "Thumb Size";

@@ -2,7 +2,6 @@
 "Search" = "搜索";
 "Favorites" = "收藏";
 "Settings" = "设置";
-"Wallhaven" = "Wallhaven";
 "Loading…" = "加载中...";
 "Unknown error" = "未知错误";
 "Searching..." = "搜索中...";
@@ -53,7 +52,6 @@
 "Set" = "设置";
 "API Key can be found in your wallhaven.cc account settings. Enables NSFW content and personal preferences." = "API Key 可在 wallhaven.cc 账号设置中获取，用于启用 NSFW 内容和账号偏好。";
 "API Key Required" = "需要 API Key";
-"Not set" = "未设置";
 "User Settings" = "用户设置";
 "Configured" = "已配置";
 "Thumb Size" = "缩略图大小";
