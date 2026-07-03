@@ -89,10 +89,14 @@ struct DetailView: View {
         .toolbar(.hidden, for: .tabBar)
         .toolbar {
             if !showFullscreen {
-                DetailTopToolbar(
-                    onDismiss: { dismiss() },
-                    wallpaperURL: viewModel.wallpaper.url
-                )
+               DetailTopToolbar(
+                   onDismiss: { dismiss() },
+                   wallpaperURL: viewModel.wallpaper.url,
+                   onFindSimilar: {
+                       dismiss()
+                       navigationState.searchTag("like:\(viewModel.wallpaper.id)")
+                   }
+               )
                 DetailBottomToolbar(
                     isFavorited: viewModel.isFavorited,
                     isInCollection: viewModel.isInCollection,

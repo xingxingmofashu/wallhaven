@@ -3,6 +3,7 @@ import SwiftUI
 struct DetailTopToolbar: ToolbarContent {
     let onDismiss: () -> Void
     let wallpaperURL: String
+    let onFindSimilar: () -> Void
 
     @ToolbarContentBuilder
     var body: some ToolbarContent {
@@ -24,6 +25,9 @@ struct DetailTopToolbar: ToolbarContent {
                 }
                 Button("Copy Link", systemImage: "doc.on.doc") {
                     UIPasteboard.general.string = wallpaperURL
+                }
+                Button("detail.find_similar", systemImage: "sparkle.magnifyingglass") {
+                    onFindSimilar()
                 }
             } label: {
                 Image(systemName: "ellipsis")

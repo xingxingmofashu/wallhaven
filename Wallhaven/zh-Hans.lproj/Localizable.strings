@@ -141,3 +141,13 @@
 "Rename Collection" = "重命名收藏夹";
 "Enter a new name for this collection." = "请输入收藏夹的新名称。";
 "Delete" = "删除";
+"search.tips" = "搜索技巧";
+"search.tips.fuzzy" = "模糊搜索";
+"search.tips.exclude" = "排除标签";
+"search.tips.include" = "必须包含";
+"search.tips.user" = "用户上传";
+"search.tips.exact" = "精确标签搜索";
+"search.tips.type" = "文件类型 (png/jpg)";
+"search.tips.similar" = "相似壁纸";
+"search.nsfw.apikey_required" = "NSFW 需要 API Key，请在设置中配置。";
+"detail.find_similar" = "找相似";

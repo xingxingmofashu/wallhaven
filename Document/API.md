@@ -149,7 +149,7 @@ Listings are limited to **24 results per page**. Meta information is available w
 | `q` | tagname, `-tagname`, `+tag1 +tag2`, `+tag1 -tag2`, `@username`, `id:123`, `type:{png/jpg}`, `like:wallpaper ID` | Search query |
 | `categories` | `100`, `101`, `111`, etc. | Toggle categories on/off (general/anime/people) |
 | `purity` | `100`, `110`, `111`, etc. | Toggle purities on/off (sfw/sketchy/nsfw). NSFW requires API key |
-| `sorting` | `date_added`, `relevance`, `random`, `views`, `favorites`, `toplist` | Sort method (default: `date_added`) |
+| `sorting` | `date_added`, `relevance`, `random`, `views`, `favorites`, `toplist`, `hot` | Sort method (default: `date_added`) |
 | `order` | `desc`, `asc` | Sort order (default: `desc`) |
 | `topRange` | `1d`, `3d`, `1w`, `1M`, `3M`, `6M`, `1y` | Time range for toplist sorting (default: `1M`). Sorting MUST be `toplist` |
 | `atleast` | `1920x1080` | Minimum resolution allowed |

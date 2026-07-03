@@ -141,3 +141,13 @@
 "Rename Collection" = "Rename Collection";
 "Enter a new name for this collection." = "Enter a new name for this collection.";
 "Delete" = "Delete";
+"search.tips" = "Search Tips";
+"search.tips.fuzzy" = "Fuzzy search";
+"search.tips.exclude" = "Exclude tag";
+"search.tips.include" = "Must include";
+"search.tips.user" = "User uploads";
+"search.tips.exact" = "Exact tag search";
+"search.tips.type" = "File type (png/jpg)";
+"search.tips.similar" = "Similar wallpapers";
+"search.nsfw.apikey_required" = "NSFW requires an API key. Set it in Settings.";
+"detail.find_similar" = "Find Similar";
